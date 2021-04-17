@@ -1,3 +1,3 @@
 ## Comment créer un block
 
-TODO
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JR0mGzEnnoA" title="Tutoriel MCP par KinderrKill" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

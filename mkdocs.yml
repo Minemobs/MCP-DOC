@@ -11,7 +11,7 @@ extra:
       link: https://github.com/minemobs  
       name: minemobs on Github
 nav:
-    - Acceuil: index.md
+    - Accueil: index.md
     - Items: items.md
     - Blocs: blocs.md
     - Traductions: traductions.md
