@@ -1,1 +1,50 @@
 site_name: MCP Docs
+repo_url: https://github.com/Minemobs/MCP-DOC
+repo_name: Minemobs/MCP-DOC
+edit_uri: ""
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/minemobs_
+      name: minemobs on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/minemobs  
+      name: minemobs on Github
+nav:
+    - Acceuil: index.md
+    - Items: items.md
+    - Blocs: blocs.md
+    - Traductions: traductions.md
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - toc.integrate
+  icon:
+    logo: material/cube
+    repo: fontawesome/brands/github
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
