@@ -24,4 +24,14 @@ Dès que tout cela est fait vous devrez ouvrir un cmd à l'emplacement où vous 
 gradlew setup
 ```
 
+Créez un package pour que l'on puisse un peu mieux différencier le code de Minecraft et le votre.
+
+```
+| src/main/java
+| net.minecraft
+| com.mojang
+| mcp
+| votre package
+```
+
 Pour lancer le jeu vous devrez executer la commande suivante ```gradlew runclient```
