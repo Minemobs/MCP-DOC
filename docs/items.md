@@ -24,8 +24,11 @@ Ensuite démarrez votre jeu en faisant ```gradlew runclient``` dans votre cmd
 Maintenant si vous effectuez la commande ```/give @s minecraft:test_item``` vous aurez votre item dans votre inventaire.
 
 Passons aux explications:
+
 La fonction register prend 2 paramètres en compte. Le nom de l'item (Il doit toujours être en minuscule et ne pas avoir d'espace) et l'item.
+
 La constructeur Item demande des propriétés pour l'item.
+
 La fonction group met l'item dans un Creative Tab.
 
 --------------
