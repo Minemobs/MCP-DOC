@@ -10,6 +10,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/minemobs  
       name: minemobs on Github
+  commands:
+    runclient: 10
 nav:
     - Accueil: index.md
     - Items: items.md

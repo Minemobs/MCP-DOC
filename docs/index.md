@@ -23,3 +23,5 @@ Dès que tout cela est fait vous devrez ouvrir un cmd à l'emplacement où vous 
 ```BASH
 gradlew setup
 ```
+
+Pour lancer le jeu vous devrez executer la commande suivante ```gradlew runclient```
